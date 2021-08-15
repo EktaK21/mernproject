@@ -1,0 +1,21 @@
+C:\Users\HP\mern\projbackend\node_modules\express\lib\router\index.js:139
+  debug('dispatching %s %s', req.method, req.url);
+                                 ^
+
+TypeError: Cannot read property 'method' of undefined
+    at Function.handle (C:\Users\HP\mern\projbackend\node_modules\express\lib\router\index.js:139:34)
+    at router (C:\Users\HP\mern\projbackend\node_modules\express\lib\router\index.js:47:12)
+    at Object.<anonymous> (C:\Users\HP\mern\projbackend\routes\category.js:16:18)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Module.require (internal/modules/cjs/loader.js:961:19)
+    at require (internal/modules/cjs/helpers.js:92:18)
+    at Object.<anonymous> (C:\Users\HP\mern\projbackend\app.js:10:24)
+    at Module._compile (internal/modules/cjs/loader.js:1072:14)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1101:10)
+    at Module.load (internal/modules/cjs/loader.js:937:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:778:12)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:76:12)
+    at internal/main/run_main_module.js:17:47
